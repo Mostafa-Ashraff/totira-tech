@@ -20,5 +20,5 @@ gsap.to('.loading-bg', {
   setTimeout(function(){
     document.querySelector('.preloader').style.display = 'none';
     //$(".preloader").fadeToggle();
-    $(".head").removeClass("d-none").addClass("d-block");
+    $(".hero").removeClass("d-none").addClass("d-block");
 },3500);
