@@ -13,13 +13,26 @@ gsap.to('.loading-bg', {
   repeat:-1
 })
   // var loader =document.getElementById("preloader");
-  // window.addEventListener("load" ,function(){
-  //   loader.style.display="none";
-  // })
-
+   window.addEventListener("load" ,function(){
+    document.querySelector('.preloader').style.display = 'none';
+    //$(".preloader").fadeToggle();
+    $(".hero").removeClass("d-none").addClass("d-block");
+    $(".contact").removeClass("d-none").addClass("d-block");
+})
+/*
   setTimeout(function(){
     document.querySelector('.preloader').style.display = 'none';
     //$(".preloader").fadeToggle();
     $(".hero").removeClass("d-none").addClass("d-block");
     $(".contact").removeClass("d-none").addClass("d-block");
-},3500);
+},3500);*/
+
+
+
+gsap.from('.hero-icon-lg',{
+  opacity: 0,
+  scale: 0, 
+  stagger: 0.1,
+  ease: 'power1.out',
+  transformOrigin: 'center center'
+})

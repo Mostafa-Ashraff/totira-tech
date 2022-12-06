@@ -293,7 +293,7 @@ nav .logo{/*
     }
 
     .hero-main{
-        padding-top: 1rem;
+        padding-top: 8rem;
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -337,8 +337,161 @@ nav .logo{/*
         z-index: 2;
         display: block;
         min-width: 50%;
+        position: relative;
+        margin-top: -10rem;
     }
 
+    .hero-icon-lg{
+        position: absolute;
+        width: 150px;
+    }
+
+    .screen-hero-icon-lg{
+        width: 300px;
+        top: 20%;
+        left: 30%;
+        transform: rotate(-45deg)    ;
+        -webkit-transform: rotate(-45deg)    ;
+        -moz-transform: rotate(-45deg)    ;
+        -ms-transform: rotate(-45deg)    ;
+        -o-transform: rotate(-45deg)    ;
+}
+
+.vue-hero-icon-lg{
+    left: 70%;
+    top: -70px;
+    transform: rotate(-18deg) scale(0.6);
+    -webkit-transform: rotate(-18deg) scale(0.6);
+    -moz-transform: rotate(-18deg) scale(0.6);
+    -ms-transform: rotate(-18deg) scale(0.6);
+    -o-transform: rotate(-18deg) scale(0.6);
+}
+
+.html-hero-icon-lg{
+    left: 55%;
+    top: -120px;
+    transform: rotate(18deg) scale(0.8);
+    -webkit-transform: rotate(18deg) scale(0.8);
+    -moz-transform: rotate(18deg) scale(0.8);
+    -ms-transform: rotate(18deg) scale(0.8);
+    -o-transform: rotate(18deg) scale(0.8);
+}
+
+.css-hero-icon-lg{
+    left: 55%;
+    top: 200px;
+    transform: rotate(35deg) scale(0.6);
+    -webkit-transform: rotate(35deg) scale(0.6);
+    -moz-transform: rotate(35deg) scale(0.6);
+    -ms-transform: rotate(35deg) scale(0.6);
+    -o-transform: rotate(35deg) scale(0.6);
+}
+
+.js-hero-icon-lg{
+    left: 80%;
+    top: 200px;
+    transform: rotate(17deg) scale(1);
+    -webkit-transform: rotate(17deg) scale(1);
+    -moz-transform: rotate(17deg) scale(1);
+    -ms-transform: rotate(17deg) scale(1);
+    -o-transform: rotate(17deg) scale(1);
+}
+
+.figma-hero-icon-lg{
+    left: 72%;
+    top: 50px;
+    transform: rotate(-30deg) scale(0.9);
+    -webkit-transform: rotate(-30deg) scale(0.9);
+    -moz-transform: rotate(-30deg) scale(0.9);
+    -ms-transform: rotate(-30deg) scale(0.9);
+    -o-transform: rotate(-30deg) scale(0.9);
+}
+.react-hero-icon-lg{
+    left: 52%;
+    top: 320px;
+    transform: rotate(20deg) scale(0.9);
+    -webkit-transform: rotate(20deg) scale(0.9);
+    -moz-transform: rotate(20deg) scale(0.9);
+    -ms-transform: rotate(20deg) scale(0.9);
+    -o-transform: rotate(20deg) scale(0.9);
+}
+
+.bootstrap-hero-icon-lg{
+    left: 28%;
+    top: 250px;
+    transform: rotate(30deg) scale(0.9);
+    -webkit-transform: rotate(30deg) scale(0.9);
+    -moz-transform: rotate(30deg) scale(0.9);
+    -ms-transform: rotate(30deg) scale(0.9);
+    -o-transform: rotate(30deg) scale(0.9);
+}
+
+.python-hero-icon-lg{
+    left: 12%;
+    top: 100px;
+    transform: rotate(-25deg) scale(1);
+    -webkit-transform: rotate(-25deg) scale(1);
+    -moz-transform: rotate(-25deg) scale(1);
+    -ms-transform: rotate(-25deg) scale(1);
+    -o-transform: rotate(-25deg) scale(1);
+}
+
+.dart-hero-icon-lg{
+    left: 2%;
+    top: 220px;
+    transform: rotate(-10deg) scale(0.7);
+    -webkit-transform: rotate(-10deg) scale(0.7);
+    -moz-transform: rotate(-10deg) scale(0.7);
+    -ms-transform: rotate(-10deg) scale(0.7);
+    -o-transform: rotate(-10deg) scale(0.7);
+}
+
+.folder-hero-icon-lg{
+    left: 37%;
+    top: -170px;
+    transform: rotate(8deg) scale(0.7);
+    -webkit-transform: rotate(8deg) scale(0.7);
+    -moz-transform: rotate(8deg) scale(0.7);
+    -ms-transform: rotate(8deg) scale(0.7);
+    -o-transform: rotate(8deg) scale(0.7);
+}
+
+.cloud-hero-icon-lg{
+    left: 17%;
+    top: -120px;
+    transform: rotate(-6deg) scale(1);
+    -webkit-transform: rotate(-6deg) scale(1);
+    -moz-transform: rotate(-6deg) scale(1);
+    -ms-transform: rotate(-6deg) scale(1);
+    -o-transform: rotate(-6deg) scale(1);
+}
+
+.node-hero-icon-lg{
+    left: 17%;
+    top: 10px;
+    transform: rotate(-20deg) scale(0.7);
+    -webkit-transform: rotate(-20deg) scale(0.7);
+    -moz-transform: rotate(-20deg) scale(0.7);
+    -ms-transform: rotate(-20deg) scale(0.7);
+    -o-transform: rotate(-20deg) scale(0.7);
+}
+
+.bulb-hero-icon-lg{
+    left: 0;
+    top: -65px;
+    transform: rotate(-45deg) scale(1);
+    -webkit-transform: rotate(-45deg) scale(1);
+    -moz-transform: rotate(-45deg) scale(1);
+    -ms-transform: rotate(-45deg) scale(1);
+    -o-transform: rotate(-45deg) scale(1);
+}
+/*
+
+    .js-hero-icon-lg{
+        top: 80%;
+        left: 30%;
+    }
+    */
     .hero-shape-mob{
         display: none;
     }
