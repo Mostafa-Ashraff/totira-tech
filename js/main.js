@@ -21,4 +21,5 @@ gsap.to('.loading-bg', {
     document.querySelector('.preloader').style.display = 'none';
     //$(".preloader").fadeToggle();
     $(".hero").removeClass("d-none").addClass("d-block");
+    $(".contact").removeClass("d-none").addClass("d-block");
 },3500);
