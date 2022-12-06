@@ -32,7 +32,16 @@ gsap.to('.loading-bg', {
 gsap.from('.hero-icon-lg',{
   opacity: 0,
   scale: 0, 
-  stagger: 0.1,
-  ease: 'power1.out',
+  stagger: 0.2,
+  ease: 'back.out',
+  transformOrigin: 'center center'
+})
+
+gsap.from('.hero-info > *',{
+  opacity: 0,
+  scale: 0,
+  xPercent: -100, 
+  stagger: 0.3,
+  ease: 'power1.Out',
   transformOrigin: 'center center'
 })
